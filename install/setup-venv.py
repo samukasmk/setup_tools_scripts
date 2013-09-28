@@ -20,14 +20,14 @@ except:
 
 os.chdir(garbage_build_folder)
 
-setup(name='Distutils',
+setup(name='MyAppExampleWithSetupToolsScripts_VirtualEnv',
       version='1.0',
       description='Example of to build your Virtualenv with Setup Tools Scripts.',
       author='Samuel Maciel Sampaio',
       author_email='samukasmk@gmail.com',
       url='https://github.com/samukasmk/setup_tools_scripts',
       install_requires=['my_package_dependency_1==1.0',
-                        'my_package_dependency_2>=1.2',
+                        'my_package_dependency_2==1.2',
                         #...
                         # Real Example:
                         'requests==1.2.3',
