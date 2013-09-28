@@ -1,6 +1,6 @@
 # setup_tools_scripts
 
-> My way to install things with virtualenv, building your virtualenv sandbox to development environment. ~ @SamukaSMk
+> My way to install things with virtualenv, building your virtualenv sandbox to development and production environment. ~ @SamukaSMk
 
 ## 1. Apply in your code
 
@@ -104,4 +104,17 @@ $ vim .gitignore
 Insert in .gitignore file the content:
 ```
 install/garbage-build
+```
+
+## 5. (Additional) Add in executable files the interpreter path
+```bash
+$ cd /my/repo/folder/project/
+
+$ vim my_executable_app.py
+```
+
+Insert in the first line of your "my_executable_app.py" file, the content:
+
+```
+#!/my/repo/folder/project/venv/bin/python
 ```
