@@ -1,3 +1,6 @@
+# Ignore garbage, (relax it will be in your virtualenv/lib)
+install/garbage-build
+
 *.py[cod]
 
 # C extensions
